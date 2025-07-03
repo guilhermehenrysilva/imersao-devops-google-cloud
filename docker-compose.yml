@@ -1,0 +1,11 @@
+services:
+  app:
+    build: . # Constroi a imagem a partir do Dockerfile na raiz do projeto
+    container_name: imersao-devops-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Monta o diretório atual no container em /app
+      # Isso permite o live-reloading ao alterar o código.
+      # O arquivo do banco de dados (escola.db) também será criado/persistido no seu diretório local.
+      - .:/app

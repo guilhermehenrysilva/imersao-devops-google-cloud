@@ -1,0 +1,3 @@
+# O Docker vai ignorar esses arquivos. Ou seja, não vai leva-los para o docker imagem.
+venv
+__pycache__
