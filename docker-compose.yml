@@ -6,6 +6,6 @@ services:
       - "8000:8000"
     volumes:
       # Monta o diretório atual no container em /app
-      # Isso permite o live-reloading ao alterar o código.
+      # Isso permite o live-reloading ao alterar o código... Ou seja, toda alteração ja será visivel ao container.
       # O arquivo do banco de dados (escola.db) também será criado/persistido no seu diretório local.
       - .:/app
