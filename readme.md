@@ -74,10 +74,10 @@ docker compose up -d
 **Aula 03: Fazendo deploy na Google Cloud Platform**
 https://www.youtube.com/watch?v=iWaYjIcTe9I&t=1981s&ab_channel=Alura
 
-Google Cloud:
+## Google Cloud:
 https://console.cloud.google.com/welcome?inv=1&invt=Ab14Tw&project=ornate-flame-464819-g5
 
-Google CLI (gcloud)
+## Google CLI (gcloud)
 https://cloud.google.com/sdk/docs/install#windows
 
 ## Autenticando no Google Cloud
